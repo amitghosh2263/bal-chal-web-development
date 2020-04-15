@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>DESIGN WEBSITE</title>
+        <link rel="stylesheet" href="style.css">
+        
+ </head>
+ <body>
+     
+
+
+     <div class="banner">
+         <div class="left-box">
+             <div class="wrappeer">
+                 <img src="image/logo.png" alt="logo" class="logo" >
+                 
+                 <div class="search-box">
+<img src="image/search.png" alt=" ">
+<input type="text" placeholder="Search">
+                 </div>
+                 <div class="vertical-line"></div>
+
+                    <ul>
+                        <li><a href="#">PRODUCTION</a></li>
+                        <li><a href="#">FACILITY</a></li>
+                        <li><a href="#">MECHANISM</a></li>
+                        <li><a href="#">OUR IDEAS</a></li>
+                    </ul>
+
+              
+             </div>
+         </div>
+         <div class="right-box">
+            <nav>
+                <ul>
+                     <li><a href="https://www.google.com">HOME</a></li>
+                     <li><a href="https://www.yahoo.com">ABOUT</a></li>
+                     <li><a href="https://www.robotixedu.com/">TECHNOLOGY</a></li>
+                     <li><a href="https://www.scientechworld.com/robotics">PRODUCT</a></li>
+                </ul>
+            </nav>
+        
+            <h2>THE NEXT<br> GENERATION</h2>
+                <div class="robot">
+                       <img src="image/robo.png" alt="robot">
+                   <h1>ROBOTICS</h1>
+                        <div class="features">
+                        <div>
+                           <small>WATCH PREVIEW</small>
+                           <img src="image/play.png" alt="play">
+                        </div>
+                        <div>
+                            <small>THE MAKING</small>
+                            <img src="image/settings.png" alt="play">
+                        </div>
+                        <div>
+                            <small>DOWNLOAD PDF</small>
+                            <img src="image/download.png" alt="play">
+                        </div>
+                          
+                </div>
+            </div>
+            <div class="circle"></div>
+            <div class="pag">
+                <ul>
+                    <li><a href="active">01</a></li>
+                    <li><a href="#">02</a></li>
+                    <li><a href="#">03</a></li>
+                    <li><a href="#">04</a></li>
+                    <li><a href="#">05</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <img src="image/volume.png" alt="" class="volume">
+     </div>
+     <div class="small"></div>
+     <div class="large"></div>
+
+   
+<script>
+         var small=document.querySelector(".small");
+         var large=document.querySelector(".large");
+         document.onmousemove=function(e){
+               small.style.left=(e.pageX-5);
+               small.style.top=(e.pageY-5);
+               small.style.display="block";
+                        large.style.left=(e.pageX-22);
+                        large.style.top=(e.pageY-22);
+                       large.style.display="block";
+ 
+      }
+     </script>
+
+   
+    
+
+
+ </body>
+</html>
